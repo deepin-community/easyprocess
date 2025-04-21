@@ -1,5 +1,84 @@
-template-repository (1.0-1) unstable; urgency=medium
+easyprocess (1.1-2) unstable; urgency=medium
 
-  * Initial release
+  * Team Upload
+  * Use dh-sequence-python3
+  * Set DPT as Maintainer per new Team policy
+  * Bump Standards-Version to 4.7.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Detiste <tchet@debian.org>  Mon, 17 Feb 2025 07:10:56 +0100
+
+easyprocess (1.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Malik Mlitat ]
+  * New upstream release
+  * Change maintainer to Malik Mlitat; #Closes: #888078
+
+ -- Malik Mlitat <mlitat88@gmail.com>  Wed, 07 Dec 2022 22:26:40 +0100
+
+easyprocess (0.3-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Sandro Tosi ]
+  * New upstream releases; Closes: #997608
+  * Use the new Debian Python Team contact name and address
+  * debian/watch
+    - track github releases
+  * debian/copyright
+    - extend packaging copyright years
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 03 Nov 2021 21:53:23 -0400
+
+easyprocess (0.2.5-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * Bump Standards-Version to 4.4.0.
+
+  [ Sandro Tosi ]
+  * Drop python 2 support
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 29 Aug 2019 22:11:27 -0400
+
+easyprocess (0.2.5-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Sandro Tosi ]
+  * New upstream release
+  * debian/copyright
+    - extend packaging copyright years
+  * debian/control
+    - bump Standards-Version to 4.3.0 (no changes needed)
+  * bump compat level to 11
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 03 Feb 2019 14:43:55 -0500
+
+easyprocess (0.2.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 11 Dec 2016 18:37:35 -0500
+
+easyprocess (0.2.2-1) unstable; urgency=low
+
+  * Initial release (closes: #838025)
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 16 Sep 2016 15:26:12 +0000
