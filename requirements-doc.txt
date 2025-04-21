@@ -1,0 +1,10 @@
+autoflake
+isort
+black>=21.12b0
+
+# pytest
+# pytest-timeout
+pyvirtualdisplay
+entrypoint2
+pillow
+# mypy
